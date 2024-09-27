@@ -1,0 +1,12 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+
+[[mods]]
+modId="headshotbonus"
+version="1.0.0"
+displayName="Headshot Bonus"
+authors="Rinko1231"
+description='''
+Headshots will deal extra damage.
+'''
