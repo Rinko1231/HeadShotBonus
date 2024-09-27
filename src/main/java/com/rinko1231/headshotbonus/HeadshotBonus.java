@@ -31,6 +31,7 @@ public class HeadshotBonus {
     private void NotifyVictim (Entity entity)
     {
         if (!HeadshotConfig.shouldNotifyVictim.get()) return;
+        if (projectile.getOwner() == null) return;
         if (entity instanceof  Player player)
             player.displayClientMessage(Component.translatable("info.headshotbonus.victim"), true);
     }
